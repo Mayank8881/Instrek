@@ -1,0 +1,103 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with tech grid pattern -->
+  <rect width="600" height="500" fill="#0A1128" opacity="0.8"/>
+  <g opacity="0.15">
+    <path d="M0 50H600" stroke="white" stroke-width="1"/>
+    <path d="M0 100H600" stroke="white" stroke-width="1"/>
+    <path d="M0 150H600" stroke="white" stroke-width="1"/>
+    <path d="M0 200H600" stroke="white" stroke-width="1"/>
+    <path d="M0 250H600" stroke="white" stroke-width="1"/>
+    <path d="M0 300H600" stroke="white" stroke-width="1"/>
+    <path d="M0 350H600" stroke="white" stroke-width="1"/>
+    <path d="M0 400H600" stroke="white" stroke-width="1"/>
+    <path d="M0 450H600" stroke="white" stroke-width="1"/>
+    
+    <path d="M50 0V500" stroke="white" stroke-width="1"/>
+    <path d="M100 0V500" stroke="white" stroke-width="1"/>
+    <path d="M150 0V500" stroke="white" stroke-width="1"/>
+    <path d="M200 0V500" stroke="white" stroke-width="1"/>
+    <path d="M250 0V500" stroke="white" stroke-width="1"/>
+    <path d="M300 0V500" stroke="white" stroke-width="1"/>
+    <path d="M350 0V500" stroke="white" stroke-width="1"/>
+    <path d="M400 0V500" stroke="white" stroke-width="1"/>
+    <path d="M450 0V500" stroke="white" stroke-width="1"/>
+    <path d="M500 0V500" stroke="white" stroke-width="1"/>
+    <path d="M550 0V500" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Central brain with AI/tech connections -->
+  <circle cx="300" cy="250" r="100" fill="url(#brainGradient)" opacity="0.9"/>
+  
+  <!-- Connection lines -->
+  <g>
+    <!-- AI connections -->
+    <path d="M300 150L230 80" stroke="#4C83FF" stroke-width="2"/>
+    <path d="M300 150L350 70" stroke="#4C83FF" stroke-width="2"/>
+    <path d="M300 150L400 100" stroke="#4C83FF" stroke-width="2"/>
+    
+    <!-- IoT connections -->
+    <path d="M380 250L480 220" stroke="#64DFDF" stroke-width="2"/>
+    <path d="M380 250L460 290" stroke="#64DFDF" stroke-width="2"/>
+    <path d="M380 250L450 180" stroke="#64DFDF" stroke-width="2"/>
+    
+    <!-- Blockchain connections -->
+    <path d="M300 350L230 420" stroke="#9900F0" stroke-width="2"/>
+    <path d="M300 350L300 450" stroke="#9900F0" stroke-width="2"/>
+    <path d="M300 350L380 410" stroke="#9900F0" stroke-width="2"/>
+  </g>
+  
+  <!-- AI nodes -->
+  <circle cx="230" cy="80" r="15" fill="#0048FF"/>
+  <circle cx="350" cy="70" r="15" fill="#0048FF"/>
+  <circle cx="400" cy="100" r="15" fill="#0048FF"/>
+  
+  <!-- IoT nodes -->
+  <circle cx="480" cy="220" r="12" fill="#00CECB"/>
+  <circle cx="460" cy="290" r="12" fill="#00CECB"/>
+  <circle cx="450" cy="180" r="12" fill="#00CECB"/>
+  
+  <!-- Blockchain nodes -->
+  <circle cx="230" cy="420" r="15" fill="#7400B8"/>
+  <circle cx="300" cy="450" r="15" fill="#7400B8"/>
+  <circle cx="380" cy="410" r="15" fill="#7400B8"/>
+  
+  <!-- Data flow particles -->
+  <circle cx="250" cy="100" r="3" fill="white"/>
+  <circle cx="370" cy="85" r="3" fill="white"/>
+  <circle cx="380" cy="105" r="3" fill="white"/>
+  
+  <circle cx="450" cy="230" r="3" fill="white"/>
+  <circle cx="430" cy="270" r="3" fill="white"/>
+  <circle cx="420" cy="200" r="3" fill="white"/>
+  
+  <circle cx="250" cy="400" r="3" fill="white"/>
+  <circle cx="300" cy="430" r="3" fill="white"/>
+  <circle cx="360" cy="390" r="3" fill="white"/>
+  
+  <!-- Circuit pattern in brain -->
+  <path d="M270 230H330" stroke="white" stroke-width="1.5"/>
+  <path d="M280 260H320" stroke="white" stroke-width="1.5"/>
+  <path d="M300 220V280" stroke="white" stroke-width="1.5"/>
+  <path d="M270 250L330 250" stroke="white" stroke-width="1.5"/>
+  
+  <!-- Glow effects -->
+  <circle cx="300" cy="250" r="80" fill="url(#glowGradient)" opacity="0.2"/>
+  
+  <!-- Labels -->
+  <text x="180" y="70" fill="white" font-family="Arial" font-size="14" font-weight="bold">AI</text>
+  <text x="500" y="220" fill="white" font-family="Arial" font-size="14" font-weight="bold">IoT</text>
+  <text x="385" y="430" fill="white" font-family="Arial" font-size="14" font-weight="bold">Blockchain</text>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="brainGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 250) rotate(90) scale(100)">
+      <stop offset="0%" stop-color="#3A0CA3"/>
+      <stop offset="100%" stop-color="#4361EE"/>
+    </radialGradient>
+    
+    <radialGradient id="glowGradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 250) rotate(90) scale(80)">
+      <stop offset="0%" stop-color="#7209B7"/>
+      <stop offset="100%" stop-color="#3A0CA3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 
